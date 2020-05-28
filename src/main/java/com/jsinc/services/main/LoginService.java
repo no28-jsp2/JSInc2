@@ -48,4 +48,11 @@ public class LoginService implements ServiceIf {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
+	@Override
+	public void sentPw(MemberDTO dto) throws Exception {
+		// TODO Auto-generated method stub
+		
+		
+	}
 }

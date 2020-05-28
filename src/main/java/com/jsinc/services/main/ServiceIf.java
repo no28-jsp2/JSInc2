@@ -10,4 +10,6 @@ public interface ServiceIf {
 	public int empNoChk(MemberDTO dto) throws Exception;
 	
 	public int userEmailChk(String userEmail)throws Exception;
+	
+	public void sentPw(MemberDTO dto)throws Exception;
 }
