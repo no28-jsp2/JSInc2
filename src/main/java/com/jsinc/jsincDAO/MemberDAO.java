@@ -36,6 +36,14 @@ public class MemberDAO {
 		public void memReg(MemberDTO dto)throws Exception {
 			sqlSession.insert(namespace+".regMem",dto);
 		}
+		//임시 비밀번호
+				public void sentPw(MemberDTO dto)throws Exception{
+				
+					System.out.println("dao의useremail:"+dto.getUserEmail());
+					System.out.println("dao의pw:"+dto.getPassword());
+					sqlSession.update(namespace+".newPw",dto);
+				
+		}
 		
 
 	

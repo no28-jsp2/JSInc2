@@ -43,4 +43,10 @@ public class MemberServiceImpl implements ServiceIf {
 		return result;
 	}
 
+	@Override
+	public void sentPw(MemberDTO dto) throws Exception {
+		// TODO Auto-generated method stub
+		dao.sentPw(dto);
+	}
+
 }

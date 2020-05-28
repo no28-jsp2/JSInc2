@@ -164,7 +164,7 @@
 					<!-- 프로필 이미지 -->
 		<div class="inputArea" >
 			<div class="select_img" align="center">
-			<label for="proImg">프로필 사진 등록</label>
+			<label for="proImg" style="cursor: pointer;">프로필 사진 등록</label>
 			<input type="file" id="proImg" name="profile" style="display: none;"/><br>
 			<input type="text" name="protext" id="protext" style="display: none;">
 				<img src="resources/img/joinprofile.png" width="100px" height="100px" 
